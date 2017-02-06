@@ -18,13 +18,14 @@ else
     define('TEXT_GREETING_GUEST', 'Welcome, please enjoy our online showcase.');
 }
 
-define('TEXT_GREETING_PERSONAL', 'Hello <span class="greetUser">%s</span>! Would you like to see our <a href="%s">newest additions</a>?');
-define('TEXT_INFORMATION', 'Define your main Index page copy here.');
 //moved to english
 //define('TABLE_HEADING_FEATURED_PRODUCTS','Featured Products');
 //define('TABLE_HEADING_NEW_PRODUCTS', 'New Products For %s');
 //define('TABLE_HEADING_UPCOMING_PRODUCTS', 'Upcoming Products');
 //define('TABLE_HEADING_DATE_EXPECTED', 'Date Expected');
+
+define('TEXT_GREETING_PERSONAL', 'Hello <span class="greetUser">%s</span>! Would you like to see our <a href="%s">newest additions</a>?');
+define('TEXT_INFORMATION', 'Define your main Index page copy here.');
 if(($category_depth == 'products') || (zen_check_url_get_terms()))
 {
     // This section deals with product-listing page contents
